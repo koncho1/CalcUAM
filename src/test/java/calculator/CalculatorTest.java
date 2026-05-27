@@ -21,11 +21,13 @@ class CalculatorTest {
     @Test
     void testSquareArea() {
         assertEquals(1.0, c.CalculateSquareArea(1));
+        assertEquals(9.0, c.CalculateSquareArea(3));
     }
 
     @Test
     void testRectArea() {
         assertEquals(1.0, c.CalculateRectArea(1, 1));
+        assertEquals(8.0, c.CalculateRectArea(4, 2));
     }
 
     @Test
@@ -57,6 +59,7 @@ class CalculatorTest {
     @Test
     void testFahrenheitToCelsius() {
         assertEquals(0.0, c.convertFarenheitToCelsius(32));
+        assertEquals(100.0, c.convertFarenheitToCelsius(212));
     }
 
     @Test
@@ -70,6 +73,8 @@ class CalculatorTest {
     void testFactorial() {
         assertEquals(120, c.factorial(5));
         assertEquals(1, c.factorial(0));
+        assertEquals(1, c.factorial(1));
+        assertEquals(2, c.factorial(2));
     }
 
 
@@ -90,6 +95,7 @@ class CalculatorTest {
     @Test
     void testLCM() {
         assertEquals(0, c.findLCM(10, 0));
+        assertEquals(30, c.findLCM(10, 15));
     }
 
 

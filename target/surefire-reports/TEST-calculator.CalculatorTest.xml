@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="calculator.CalculatorTest" time="0.062" tests="16" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="calculator.CalculatorTest" time="0.045" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1250"/>
-    <property name="java.class.path" value="C:\Users\Honk Honk\Desktop\zapewnianie jakosci\CalcUAM\target\test-classes;C:\Users\Honk Honk\Desktop\zapewnianie jakosci\CalcUAM\target\classes;C:\Users\Honk Honk\.m2\repository\org\jacoco\jacoco-maven-plugin\0.8.12\jacoco-maven-plugin-0.8.12.jar;C:\Users\Honk Honk\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.24\plexus-utils-3.0.24.jar;C:\Users\Honk Honk\.m2\repository\org\apache\maven\shared\file-management\3.1.0\file-management-3.1.0.jar;C:\Users\Honk Honk\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Honk Honk\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Honk Honk\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar;C:\Users\Honk Honk\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.0\doxia-sink-api-1.0.jar;C:\Users\Honk Honk\.m2\repository\org\jacoco\org.jacoco.agent\0.8.12\org.jacoco.agent-0.8.12-runtime.jar;C:\Users\Honk Honk\.m2\repository\org\jacoco\org.jacoco.core\0.8.12\org.jacoco.core-0.8.12.jar;C:\Users\Honk Honk\.m2\repository\org\ow2\asm\asm\9.7\asm-9.7.jar;C:\Users\Honk Honk\.m2\repository\org\ow2\asm\asm-commons\9.7\asm-commons-9.7.jar;C:\Users\Honk Honk\.m2\repository\org\ow2\asm\asm-tree\9.7\asm-tree-9.7.jar;C:\Users\Honk Honk\.m2\repository\org\jacoco\org.jacoco.report\0.8.12\org.jacoco.report-0.8.12.jar;C:\Users\Honk Honk\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\Honk Honk\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Honk Honk\.m2\repository\org\junit\jupiter\junit-jupiter\6.1.0\junit-jupiter-6.1.0.jar;C:\Users\Honk Honk\.m2\repository\org\junit\jupiter\junit-jupiter-api\6.1.0\junit-jupiter-api-6.1.0.jar;C:\Users\Honk Honk\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Honk Honk\.m2\repository\org\junit\platform\junit-platform-commons\6.1.0\junit-platform-commons-6.1.0.jar;C:\Users\Honk Honk\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Honk Honk\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Honk Honk\.m2\repository\org\junit\jupiter\junit-jupiter-params\6.1.0\junit-jupiter-params-6.1.0.jar;C:\Users\Honk Honk\.m2\repository\org\junit\jupiter\junit-jupiter-engine\6.1.0\junit-jupiter-engine-6.1.0.jar;C:\Users\Honk Honk\.m2\repository\org\junit\platform\junit-platform-engine\6.1.0\junit-platform-engine-6.1.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\Honk Honk\Desktop\zapewnianie jakosci\CalcUAM\target\test-classes;C:\Users\Honk Honk\Desktop\zapewnianie jakosci\CalcUAM\target\classes;C:\Users\Honk Honk\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\Honk Honk\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\Honk Honk\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Honk Honk\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\Honk Honk\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Honk Honk\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\Honk Honk\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\Honk Honk\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\Honk Honk\.m2\repository\org\pitest\pitest-junit5-plugin\1.2.1\pitest-junit5-plugin-1.2.1.jar;C:\Users\Honk Honk\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PL"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
-    <property name="sun.java.command" value="C:\Users\Honk Honk\AppData\Local\Temp\surefire8611231385088093114\surefirebooter-20260527085233796_3.jar C:\Users\Honk Honk\AppData\Local\Temp\surefire8611231385088093114 2026-05-27T08-52-33_735-jvmRun1 surefire-20260527085233796_1tmp surefire_0-20260527085233796_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Honk Honk\AppData\Local\Temp\surefire17098326417542442683\surefirebooter-20260527170935457_3.jar C:\Users\Honk Honk\AppData\Local\Temp\surefire17098326417542442683 2026-05-27T17-09-35_391-jvmRun1 surefire-20260527170935457_1tmp surefire_0-20260527170935457_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Honk Honk\Desktop\zapewnianie jakosci\CalcUAM\target\test-classes;C:\Users\Honk Honk\Desktop\zapewnianie jakosci\CalcUAM\target\classes;C:\Users\Honk Honk\.m2\repository\org\jacoco\jacoco-maven-plugin\0.8.12\jacoco-maven-plugin-0.8.12.jar;C:\Users\Honk Honk\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.24\plexus-utils-3.0.24.jar;C:\Users\Honk Honk\.m2\repository\org\apache\maven\shared\file-management\3.1.0\file-management-3.1.0.jar;C:\Users\Honk Honk\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Honk Honk\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Honk Honk\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar;C:\Users\Honk Honk\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.0\doxia-sink-api-1.0.jar;C:\Users\Honk Honk\.m2\repository\org\jacoco\org.jacoco.agent\0.8.12\org.jacoco.agent-0.8.12-runtime.jar;C:\Users\Honk Honk\.m2\repository\org\jacoco\org.jacoco.core\0.8.12\org.jacoco.core-0.8.12.jar;C:\Users\Honk Honk\.m2\repository\org\ow2\asm\asm\9.7\asm-9.7.jar;C:\Users\Honk Honk\.m2\repository\org\ow2\asm\asm-commons\9.7\asm-commons-9.7.jar;C:\Users\Honk Honk\.m2\repository\org\ow2\asm\asm-tree\9.7\asm-tree-9.7.jar;C:\Users\Honk Honk\.m2\repository\org\jacoco\org.jacoco.report\0.8.12\org.jacoco.report-0.8.12.jar;C:\Users\Honk Honk\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\Honk Honk\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Honk Honk\.m2\repository\org\junit\jupiter\junit-jupiter\6.1.0\junit-jupiter-6.1.0.jar;C:\Users\Honk Honk\.m2\repository\org\junit\jupiter\junit-jupiter-api\6.1.0\junit-jupiter-api-6.1.0.jar;C:\Users\Honk Honk\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Honk Honk\.m2\repository\org\junit\platform\junit-platform-commons\6.1.0\junit-platform-commons-6.1.0.jar;C:\Users\Honk Honk\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Honk Honk\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Honk Honk\.m2\repository\org\junit\jupiter\junit-jupiter-params\6.1.0\junit-jupiter-params-6.1.0.jar;C:\Users\Honk Honk\.m2\repository\org\junit\jupiter\junit-jupiter-engine\6.1.0\junit-jupiter-engine-6.1.0.jar;C:\Users\Honk Honk\.m2\repository\org\junit\platform\junit-platform-engine\6.1.0\junit-platform-engine-6.1.0.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Honk Honk\Desktop\zapewnianie jakosci\CalcUAM\target\test-classes;C:\Users\Honk Honk\Desktop\zapewnianie jakosci\CalcUAM\target\classes;C:\Users\Honk Honk\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\Honk Honk\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\Honk Honk\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Honk Honk\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\Honk Honk\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Honk Honk\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\Honk Honk\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\Honk Honk\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\Honk Honk\.m2\repository\org\pitest\pitest-junit5-plugin\1.2.1\pitest-junit5-plugin-1.2.1.jar;C:\Users\Honk Honk\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Honk Honk"/>
     <property name="user.language" value="pl"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Honk Honk\AppData\Local\Temp\surefire8611231385088093114\surefirebooter-20260527085233796_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Honk Honk\AppData\Local\Temp\surefire17098326417542442683\surefirebooter-20260527170935457_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24+36-3646"/>
@@ -59,20 +59,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="testGCD" classname="calculator.CalculatorTest" time="0.024"/>
-  <testcase name="testLCM" classname="calculator.CalculatorTest" time="0.005"/>
-  <testcase name="testFahrenheitToCelsius" classname="calculator.CalculatorTest" time="0.001"/>
-  <testcase name="testPower" classname="calculator.CalculatorTest" time="0.0"/>
+  <testcase name="testGCD" classname="calculator.CalculatorTest" time="0.016"/>
+  <testcase name="testLCM" classname="calculator.CalculatorTest" time="0.0"/>
+  <testcase name="testFahrenheitToCelsius" classname="calculator.CalculatorTest" time="0.002"/>
+  <testcase name="testPower" classname="calculator.CalculatorTest" time="0.001"/>
   <testcase name="testPrime" classname="calculator.CalculatorTest" time="0.001"/>
-  <testcase name="testSqrt" classname="calculator.CalculatorTest" time="0.0"/>
+  <testcase name="testSqrt" classname="calculator.CalculatorTest" time="0.001"/>
   <testcase name="testCelsiusToFahrenheit" classname="calculator.CalculatorTest" time="0.001"/>
   <testcase name="testFactorial" classname="calculator.CalculatorTest" time="0.0"/>
   <testcase name="testFibonacci" classname="calculator.CalculatorTest" time="0.0"/>
   <testcase name="testRectArea" classname="calculator.CalculatorTest" time="0.001"/>
   <testcase name="testRectCirc" classname="calculator.CalculatorTest" time="0.0"/>
-  <testcase name="testTriangleArea" classname="calculator.CalculatorTest" time="0.0"/>
-  <testcase name="testTriangleCirc" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testTriangleArea" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testTriangleCirc" classname="calculator.CalculatorTest" time="0.0"/>
   <testcase name="testMphToKph" classname="calculator.CalculatorTest" time="0.0"/>
-  <testcase name="testSquareArea" classname="calculator.CalculatorTest" time="0.001"/>
-  <testcase name="testSquareCirc" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testSquareArea" classname="calculator.CalculatorTest" time="0.0"/>
+  <testcase name="testSquareCirc" classname="calculator.CalculatorTest" time="0.0"/>
 </testsuite>
